@@ -359,6 +359,7 @@ $wgResourceLoaderMaxage['unversioned']['client'] = 60 * 60 * 24; // cache uncach
 $wgEnableSidebarCache = false; // don't cache the sidebar (MediaWikiChat adds a module)
 $wgUseFileCache = true;
 $wgFileCacheDirectory = "$IP/cache/$bmProject"; // show IPs fully cached html pages
+$wgShowIPinHeader = false; // speeds up page loads and makes file cache more effective
 
 $wgDBerrorLog = "$IP/DB.log";
 
